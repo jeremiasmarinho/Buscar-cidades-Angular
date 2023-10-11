@@ -4,6 +4,7 @@
   </head>
   <body>
     <input #campoBusca type="search" placeholder="Buscar cidades" />
+
     <table>
       <tr *ngFor="let distrito of distritos | arrayFiltro : filtro">
         <!-- <td>{{ distrito.id }}</td> -->

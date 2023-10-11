@@ -40,7 +40,7 @@ export class AppComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     fromEvent(this.campoBusca.nativeElement, 'keyup')
-      .pipe(debounceTime(2000))
+      .pipe(debounceTime(20))
       .subscribe((e: Event) => {
         const target = e.target as HTMLInputElement;
         this.filtro = target.value;
