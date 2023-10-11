@@ -1,7 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-}
+
 
 html {
     display: flex;
@@ -32,6 +29,15 @@ input{
     font-size: 18px;
     font-weight: 500;
 }
+
+label {
+    display: flex;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 
 table tr td  {
   padding: 3px; 
